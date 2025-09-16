@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Empower Together - Resources</title>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Resources</h1>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="resources.html">Resources</a> |
+        <a href="About Us.html">About</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+      <div>
+        <h2>Career</h2>
+
+        <article>
+          <h3>Fairygodboss – 50 Great Career Resources for Women</h3>
+          <p>
+            A broad collection of websites, communities, and tools designed to support women in advancing their careers. <a href="https://fairygodboss.com">Fairygodboss</a>
+          </p>
+        </article>
+
+        <article>
+          <h3>Career Contessa – 7 Ladies Only Resources for Growing Your Career</h3>
+          <p>
+            Highlights platforms like Clever Girl Finance, InHerSight, Therapy for Black Girls, and more, all tailored to professional women. <a href="https://www.careercontessa.com">Career Contessa</a>
+          </p>
+        </article>
+
+        <article>
+          <h3>NCDA – Internet Sites for Career Planning</h3>
+          <p>
+            Curated, credible links to free career planning tools aimed at self-help development. <a href="https://www.ncda.org">NCDA</a>
+          </p>
+        </article>
+      </div>
+   
+      <div>
+        <h2>Health &amp; Wellness</h2>
+
+        <article>
+          <h3>Mental Health America – Women’s Mental Health Resources</h3>
+          <p>
+            A central resource hub for understanding mental health, accessing support, and learning tools for self-care. <a href="https://mhanational.org">Mental Health America</a>
+          </p>
+        </article>
+
+        <article>
+          <h3>Wellbeing Trust – Women’s Mental Health and Well-Being</h3>
+          <p>
+            A compiled list of organizations and initiatives tailored to support women’s mental wellness needs. <a href="https://wellbeingtrust.org">Wellbeing Trust</a>
+          </p>
+        </article>
+
+        <article>
+          <h3>Office on Women's Health (HHS)</h3>
+          <p>
+            A federal hub providing evidence-based guidance on topics like reproductive health, pregnancy, and wellness across the lifespan. <a href="https://womenshealth.gov">Office on Women's Health</a>
+          </p>
+        </article>
+      </div>
+  
+      <div>
+        <img src="Resources.jpg" alt="Resources image" width="700" height="350">
+      </div>
+    
+      <div>
+        <p><a href="index.html">Back to Home</a></p>
+      </div>
+ 
+  </main>
+
+  <footer>
+    <div>
+      <p>&copy; Empower Together</p>
+    </div>
+  </footer>
+</body>
+</html>
