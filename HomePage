@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Empower Together - Home</title>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Empower Together</h1>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="resources.html">Resources</a> |
+        <a href="About Us.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+      <div>
+        <h2>Welcome</h2>
+        <p>
+          Welcome to Empower Together, a space designed to uplift, inform, and inspire. Our mission is to provide women with the resources they need to thrive. Whether in career, health, or personal growth, while also giving families the tools to better support the women in their lives.
+        </p>
+        <p>
+          Here, you’ll find practical resources, inspiring stories, and opportunities to connect. Whether you’re seeking guidance for yourself or learning how to stand alongside others, this site is your hub for knowledge, support, and empowerment. Together, we can create a stronger, more supportive community for all.
+        </p>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <!-- Image map with two clickable areas that link to Resources and About -->
+        <img src="HomePage.jpg" alt="Empower Together homepage image" usemap="#homemap" width="800" height="400">
+        <map name="homemap">
+          <!-- Left half links to Resources -->
+          <area shape="rect" coords="0,0,399,400" href="resources.html" alt="Go to Resources">
+          <!-- Right half links to About -->
+          <area shape="rect" coords="401,0,800,400" href="About Us.html" alt="Go to About">
+        </map>
+
+        <div>
+          <p>If the image areas don't work for you, use these links:</p>
+          <ul>
+            <li><a href="resources.html">Go to Resources</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    <div>
+      <p>&copy; Empower Together</p>
+    </div>
+  </footer>
+
+</body>
+</html>
