@@ -16,5 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
   greeting.textContent = message;
   greeting.style.fontStyle = "italic";
   greeting.style.textAlign = "center";
+  greeting.style.marginTop = "10px";
+  greeting.style.color = "#333";
+
   header.appendChild(greeting);
 });
