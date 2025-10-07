@@ -1,3 +1,16 @@
+// Toggle Dark Mode
+const toggle = document.getElementById("themeToggle");
+toggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
+
+// Auto-enhance image contrast when page loads
+window.addEventListener("load", () => {
+  document.querySelectorAll("img").forEach(img => {
+    img.style.filter = "contrast(1.1) brightness(1.05)";
+  });
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const header = document.getElementById("header");
   const greeting = document.createElement("p");
