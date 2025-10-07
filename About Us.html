@@ -4,64 +4,136 @@
   <meta charset="utf-8">
   <title>Empower Together - About Us</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Updated contrast and readability */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #222;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 1em;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #004080;
+    }
+
+    img {
+      display: block;
+      margin: 2em auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      opacity: 0;
+      transition: opacity 1.5s ease-in;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      margin-top: 3em;
+    }
+
+    a {
+      color: #004080;
+    }
+
+    a:hover {
+      color: #0066cc;
+    }
+  </style>
 </head>
 <body>
 
   <header>
-    <div>
-      <h1>About Us</h1>
-      <nav>
-        <a href="index.html">Home</a> |
-        <a href="Resources.html">Resources</a> |
-        <a href="About Us.html">About</a>
-      </nav>
-    </div>
+    <h1>About Us</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="Resources.html">Resources</a> |
+      <a href="About Us.html" aria-current="page">About</a>
+    </nav>
   </header>
 
   <main>
-      <div>
-        <h2>About Us!</h2>
+    <section>
+      <h2>About Empower Together</h2>
+      <p>
+        At <strong>Empower Together</strong>, we believe that every woman deserves access to the tools, knowledge, and support that foster growth in all aspects of life. Our mission is to create a centralized space that connects women to resources in <em>career development, health, mental wellness,</em> and <em>financial literacy</em>.
+      </p>
 
-        <p>
-          At Empower Together, we believe that women deserve access to the tools, knowledge, and support that help them thrive in every aspect of life. Our website was created with the goal of providing women with resources for career development, health, mental wellness, and financial literacy, all in one easy-to-access space.
-        </p>
+      <p>
+        But this platform isn’t only for women—it’s also for the people who care about them. Spouses, friends, and family members will find guidance here on how to support the women in their lives more effectively.
+      </p>
 
-        <p>
-          But this site isn’t only for women. It’s also for the people who care about them. Supporters, including spouses, family members, and friends, can also find information here on how to better support the women in their lives.
-        </p>
+      <p>We’re here to:</p>
+      <ul>
+        <li>Provide accurate, actionable resources on women’s wellness and empowerment.</li>
+        <li>Foster a space for connection, encouragement, and personal growth.</li>
+      </ul>
 
-        <p>
-          We created this platform to:
-        </p>
-        <ul>
-          <li>Share reliable resources on women’s wellness, career, and empowerment.</li>
-          <li>Provide a space where women and supporters alike can connect with tools and guidance.</li>
-        </ul>
+      <p>
+        Our vision is simple: to uplift women while promoting allyship and equity. Together, we can build stronger futures for everyone.
+      </p>
+    </section>
 
-        <p>
-          Inspire growth, equity, and support through knowledge and community.
-          Our vision is simple: to empower women while encouraging allyship. Together, we can build stronger futures for everyone.
-        </p>
-      </div>
-    
-      <div>
-        <img src="AboutUs.jpg" width="600" height="300">
-      </div>
-   
-      <div>
-        <p><a href="index.html">Back to Home</a></p>
-      </div>
-   
+    <section>
+      <img id="aboutImage" src="AboutUs.jpg" alt="Group of empowered women supporting each other">
+    </section>
+
+    <p style="text-align:center;">
+      <a href="index.html">← Back to Home</a>
+    </p>
   </main>
 
   <footer>
-    <div>
-      <p>&copy; Empower Together</p>
-    </div>
+    <p>&copy; 2025 Empower Together | All Rights Reserved</p>
   </footer>
+
+  <script>
+    // Fade-in effect for image when it finishes loading
+    document.addEventListener("DOMContentLoaded", () => {
+      const img = document.getElementById("aboutImage");
+      img.addEventListener("load", () => {
+        img.style.opacity = 1;
+      });
+    });
+  </script>
 
 </body>
 </html>
+
+
+
 
 
 
