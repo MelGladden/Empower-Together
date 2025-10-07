@@ -1,78 +1,56 @@
 /* General Styles */
 body {
-    font-family: 'Trebuchet MS', 'Verdana', sans-serif;
-    background: linear-gradient(to right, #ffecd2, #fcb69f); /* soft orange/pink gradient */
-    margin: 0;
-    padding: 0;
-    color: #333;
-  }
-  
-  /* Header */
-  header {
-    background: #ff6f61; /* coral */
-    color: white;
-    padding: 15px;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    letter-spacing: 2px;
-  }
-  
-  /* Navigation */
-  nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-    color: #ffe082;
-  }
-  
-  /* Main Content */
-  main {
-    padding: 20px;
-  }
-  
-  h2 {
-    color: #e65100; /* deep orange */
-  }
-  
-  h3 {
-    color: #4e342e; /* brown for contrast */
-  }
-  
-  p, li {
-    font-size: 1.1em;
-    line-height: 1.6em;
-  }
-  
-  /* Articles */
-  article {
-    background: #fff3e0; /* light peach */
-    border-radius: 10px;
-    padding: 15px;
-    margin: 15px 0;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-  }
-  
-  /* Images */
-  img {
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-  }
-  
-  /* Footer */
-  footer {
-    background: #ff6f61;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb; /* light neutral background */
+  color: #222; /* darker text for strong contrast */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #143642; /* deep blue-green */
+  color: #ffffff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5em;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ffffff;
+  color: #143642;
+  border-radius: 5px;
+}
+
+main {
+  max-width: 900px;
+  margin: 2em auto;
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+img {
+  display: block;
+  margin: 2em auto;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  filter: contrast(1.1) brightness(1.05); /* Enhances clarity slightly */
+}
+
+footer {
+  background-color: #143642;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em 0;
+}
+
