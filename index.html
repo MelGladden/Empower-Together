@@ -1,57 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Empower Together - Home</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
-    <h1>Welcome to Empower Together</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="Resources.html">Resources</a> |
-      <a href="About Us.html">About</a>
-    </nav>
+    <div>
+      <h1>Empower Together</h1>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="Resources.html">Resources</a> |
+        <a href="About Us.html">About</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section id="intro">
+    <div>
+      <h2>Welcome</h2>
+      <!-- Dynamic greeting appears here -->
+      <p id="greeting" class="greeting-text"></p>
+
       <p>
-        Welcome to <strong>Empower Together</strong>, a space designed to uplift, inform, and inspire. 
-        Our mission is to provide women with the resources they need to thrive — whether in career, health, or personal growth — 
-        while giving families the tools to better support the women in their lives.
+        Welcome to <strong>Empower Together</strong> — a space designed to uplift, inform, and inspire. 
+        Our mission is to provide women with the resources they need to thrive in all aspects of life — 
+        from career growth to mental wellness — while helping families and allies learn how to support 
+        the women they care about.
       </p>
 
       <p>
-        Here, you’ll find practical resources, inspiring stories, and opportunities to connect. 
-        Whether you’re seeking guidance for yourself or learning how to stand alongside others, 
-        this site is your hub for knowledge, support, and empowerment.
+        Explore practical tools, inspiring stories, and opportunities to connect. Whether you’re seeking 
+        personal guidance or ways to stand alongside others, this is your hub for knowledge, community, 
+        and empowerment. Together, we can create a stronger, more supportive future for everyone.
       </p>
-    </section>
+    </div>
 
-    <section id="homepage-image">
-      <img src="HomePage.jpg" alt="Empowerment community banner" />
-    </section>
+    <div>
+      <h3>Explore</h3>
+      <img src="HomePage.jpg" alt="Empower Together homepage image" usemap="#homemap" width="800" height="400">
+      <map name="homemap">
+        <area shape="rect" coords="0,0,399,400" href="Resources.html" alt="Go to Resources">
+        <area shape="rect" coords="401,0,800,400" href="About Us.html" alt="Go to About Us">
+      </map>
 
-    <section id="navigation">
-      <h2>Explore Our Site</h2>
-      <ul>
-        <li><a href="About Us.html">About Us</a></li>
-        <li><a href="Resources.html">Resources</a></li>
-      </ul>
-    </section>
+      <div>
+        <p>If the image links don’t work, use these:</p>
+        <ul>
+          <li><a href="Resources.html">Go to Resources</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+        </ul>
+      </div>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Empower Together</p>
+    <div>
+      <p>&copy; 2025 Empower Together</p>
+    </div>
   </footer>
 
-  <button id="themeToggle">Toggle Dark Mode</button>
-  <script src="script.js"></script>
+  <!-- JavaScript for Dynamic Greeting -->
+  <script>
+    const greetingElement = document.getElementById('greeting');
+    const hour = new Date().getHours();
+    let greetingText = '';
+
+    if (hour < 12) {
+      greetingText = 'Good morning!';
+    } else if (hour < 18) {
+      greetingText = 'Good afternoon!';
+    } else {
+      greetingText = 'Good evening!';
+    }
+
+    greetingElement.textContent = greetingText;
+  </script>
+
 </body>
 </html>
+
+
 
 
 
