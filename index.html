@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header>
     <div>
       <h1>Empower Together</h1>
@@ -18,10 +17,12 @@
       </nav>
     </div>
   </header>
-
   <main>
     <div>
       <h2>Welcome</h2>
+      <!-- Dynamic greeting appears here -->
+      <p id="greeting" class="greeting-text"></p>
+
       <p>
         Welcome to <strong>Empower Together</strong> — a space designed to uplift, inform, and inspire. 
         Our mission is to provide women with the resources they need to thrive in all aspects of life — 
@@ -38,7 +39,6 @@
 
     <div>
       <h3>Explore</h3>
-      <!-- Image map with clickable sections -->
       <img src="HomePage.jpg" alt="Empower Together homepage image" usemap="#homemap" width="800" height="400">
       <map name="homemap">
         <area shape="rect" coords="0,0,399,400" href="Resources.html" alt="Go to Resources">
@@ -61,8 +61,26 @@
     </div>
   </footer>
 
+  <!-- JavaScript for Dynamic Greeting -->
+  <script>
+    const greetingElement = document.getElementById('greeting');
+    const hour = new Date().getHours();
+    let greetingText = '';
+
+    if (hour < 12) {
+      greetingText = 'Good morning!';
+    } else if (hour < 18) {
+      greetingText = 'Good afternoon!';
+    } else {
+      greetingText = 'Good evening!';
+    }
+
+    greetingElement.textContent = greetingText;
+  </script>
+
 </body>
 </html>
+
 
 
 
