@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Empower Together - Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -18,43 +20,47 @@
   </header>
 
   <main>
-      <div>
-        <h2>Welcome</h2>
-        <p>
-          Welcome to Empower Together, a space designed to uplift, inform, and inspire. Our mission is to provide women with the resources they need to thrive. Whether in career, health, or personal growth, while also giving families the tools to better support the women in their lives.
-        </p>
-        <p>
-          Here, you’ll find practical resources, inspiring stories, and opportunities to connect. Whether you’re seeking guidance for yourself or learning how to stand alongside others, this site is your hub for knowledge, support, and empowerment. Together, we can create a stronger, more supportive community for all.
-        </p>
-      </div>
+    <div>
+      <h2>Welcome</h2>
+      <p>
+        Welcome to <strong>Empower Together</strong> — a space designed to uplift, inform, and inspire. 
+        Our mission is to provide women with the resources they need to thrive in all aspects of life — 
+        from career growth to mental wellness — while helping families and allies learn how to support 
+        the women they care about.
+      </p>
+
+      <p>
+        Explore practical tools, inspiring stories, and opportunities to connect. Whether you’re seeking 
+        personal guidance or ways to stand alongside others, this is your hub for knowledge, community, 
+        and empowerment. Together, we can create a stronger, more supportive future for everyone.
+      </p>
+    </div>
+
+    <div>
+      <h3>Explore</h3>
+      <!-- Image map with clickable sections -->
+      <img src="HomePage.jpg" alt="Empower Together homepage image" usemap="#homemap" width="800" height="400">
+      <map name="homemap">
+        <area shape="rect" coords="0,0,399,400" href="Resources.html" alt="Go to Resources">
+        <area shape="rect" coords="401,0,800,400" href="About Us.html" alt="Go to About Us">
+      </map>
 
       <div>
-        <h3>Explore</h3>
-        <!-- Image map with two clickable areas that link to Resources and About -->
-        <img src="HomePage.jpg" alt="Empower Together homepage image" usemap="#homemap" width="800" height="400">
-        <map name="homemap">
-          <!-- Left half links to Resources -->
-          <area shape="rect" coords="0,0,399,400" href="Resources.html" alt="Go to Resources">
-          <!-- Right half links to About -->
-          <area shape="rect" coords="401,0,800,400" href="About Us.html" alt="Go to About">
-        </map>
-
-        <div>
-          <p>If the image areas don't work for you, use these links:</p>
-          <ul>
-            <li><a href="Resources.html">Go to Resources</a></li>
-            <li><a href="About Us.html">About Us</a></li>
-          </ul>
-        </div>
+        <p>If the image links don’t work, use these:</p>
+        <ul>
+          <li><a href="Resources.html">Go to Resources</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+        </ul>
       </div>
+    </div>
   </main>
 
   <footer>
     <div>
-      <p>&copy; Empower Together</p>
+      <p>&copy; 2025 Empower Together</p>
     </div>
   </footer>
 
 </body>
-
 </html>
+
